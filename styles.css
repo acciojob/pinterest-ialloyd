@@ -3,21 +3,21 @@
 .hero{
 
 	display:flex;
-	flex:wrap;
 	justify-content:space-around;
 	align-items: center;
 }
 
 img{
-
-	width:300px;
-	height:200px;
+	width:400px;
+	height:300px;
+	object-fit:cover;
 }
 
 
 h1,p,button{
 
 	margin-inline:8vw;
+	text-align:center;
 }
 
 button{
@@ -33,8 +33,10 @@ button{
 	
 }
 
-.card{
-	height:200px;
+a{
+	text-decoration:none;
+	color:white;
 }
+
 
 	
